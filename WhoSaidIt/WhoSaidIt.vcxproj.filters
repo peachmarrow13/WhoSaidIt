@@ -20,11 +20,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Quotes.h">
+    <None Include="Quotes.json">
       <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Quotes-JAP" />
+    </None>
   </ItemGroup>
 </Project>

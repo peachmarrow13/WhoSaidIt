@@ -1,0 +1,82 @@
+[
+  {
+    "characterEng": "Rimuru",
+    "characterJap": "リムル",
+    "quoteEng": "Let's be friends!",
+    "quoteJap": "友達になろう！",
+    "hintJap": "転生したらスライムだった件",
+    "hintEng": "That Time I Got Reincarnated as a Slime"
+  },
+  {
+    "characterEng": "Shion",
+    "characterJap": "シオン",
+    "quoteEng": "I will cook something delicious for you!",
+    "quoteJap": "美味しいものを作ってあげる！",
+    "hintJap": "転生したらスライムだった件",
+    "hintEng": "That Time I Got Reincarnated as a Slime"
+  },
+  {
+    "characterEng": "Goku",
+    "characterJap": "悟空",
+    "quoteEng": "I am the hope of the universe.",
+    "quoteJap": "俺は宇宙の希望だ。",
+    "hintJap": "ドラゴンボール",
+    "hintEng": "Dragon Ball"
+  },
+  {
+    "characterEng": "Luffy",
+    "characterJap": "ルフィ",
+    "quoteEng": "I'm gonna be King of the Pirates!",
+    "quoteJap": "海賊王に俺はなる！",
+    "hintJap": "ワンピース",
+    "hintEng": "One Piece"
+  },
+  {
+    "characterEng": "Light Yagami",
+    "characterJap": "夜神 月",
+    "quoteEng": "I am Justice!",
+    "quoteJap": "私は正義だ！",
+    "hintJap": "デスノート",
+    "hintEng": "Death Note"
+  },
+  {
+    "characterEng": "Edward Elric",
+    "characterJap": "エドワード・エルリック",
+    "quoteEng": "A lesson without pain is meaningless.",
+    "quoteJap": "痛みなくして得るものなし。",
+    "hintJap": "鋼の錬金術師",
+    "hintEng": "Fullmetal Alchemist"
+  },
+  {
+    "characterEng": "Itachi Uchiha",
+    "characterJap": "うちは イタチ",
+    "quoteEng": "Those who forgive themselves, and are able to accept their true nature... They are the strong ones!",
+    "quoteJap": "自分を許し、そして本当の自分を受け入れることができる者こそ強いんだ。",
+    "hintJap": "ナルト",
+    "hintEng": "Naruto"
+  },
+  {
+    "characterEng": "Vegeta",
+    "characterJap": "ベジータ",
+    "quoteEng": "It's over 9000!",
+    "quoteJap": "9000を超えた！",
+    "hintJap": "ドラゴンボール",
+    "hintEng": "Dragon Ball"
+  },
+  {
+    "characterEng": "Naruto Uzumaki",
+    "characterJap": "うずまき ナルト",
+    "quoteEng": "Believe it!",
+    "quoteJap": "だってばよ！",
+    "hintJap": "ナルト",
+    "hintEng": "Naruto"
+  },
+  {
+    "characterEng": "Spike Spiegel",
+    "characterJap": "スパイク・スピーゲル",
+    "quoteEng": "Whatever happens, happens.",
+    "quoteJap": "なるようになるさ。",
+    "hintJap": "カウボーイビバップ",
+    "hintEng": "Cowboy Bebop"
+  }
+]
