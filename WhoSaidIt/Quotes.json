@@ -2,8 +2,8 @@
   {
     "characterEng": "Rimuru",
     "characterJap": "リムル",
-    "quoteEng": "Let's be friends!",
-    "quoteJap": "友達になろう！",
+    "quoteEng": "Rest easy. I’ll devour all your sins along with you.",
+    "quoteJap": "それでも、お前は死ぬ。だが安心しろ、俺がお前の罪も全て食ってやるから",
     "hintJap": "転生したらスライムだった件",
     "hintEng": "That Time I Got Reincarnated as a Slime"
   },
@@ -18,8 +18,8 @@
   {
     "characterEng": "Goku",
     "characterJap": "悟空",
-    "quoteEng": "I am the hope of the universe.",
-    "quoteJap": "俺は宇宙の希望だ。",
+    "quoteEng": "Ka...me...ha...me...ha!",
+    "quoteJap": "か…め…は…め…波ーーー！！",
     "hintJap": "ドラゴンボール",
     "hintEng": "Dragon Ball"
   },
@@ -58,8 +58,8 @@
   {
     "characterEng": "Vegeta",
     "characterJap": "ベジータ",
-    "quoteEng": "It's over 9000!",
-    "quoteJap": "9000を超えた！",
+    "quoteEng": "I am the Prince of all Saiyans!",
+    "quoteJap": "俺は全てのサイヤ人の王子だ！",
     "hintJap": "ドラゴンボール",
     "hintEng": "Dragon Ball"
   },
@@ -78,5 +78,205 @@
     "quoteJap": "なるようになるさ。",
     "hintJap": "カウボーイビバップ",
     "hintEng": "Cowboy Bebop"
+  },
+  {
+    "characterEng": "Gobta",
+    "characterJap": "ゴブタ",
+    "quoteEng": "Backstabbing someone like that is not manly at all!",
+    "quoteJap": "そんな裏切り方は男らしくないぞ！",
+    "hintJap": "転生したらスライムだった件",
+    "hintEng": "That Time I Got Reincarnated as a Slime"
+  },
+  {
+    "characterEng": "Levi Ackerman",
+    "characterJap": "リヴァイ・アッカーマン",
+    "quoteEng": "Give up on your dreams and die.",
+    "quoteJap": "夢を諦めて死んでくれ。",
+    "hintJap": "進撃の巨人",
+    "hintEng": "Attack on Titan"
+  },
+  {
+    "characterEng": "Eren Yeager",
+    "characterJap": "エレン・イェーガー",
+    "quoteEng": "If you win, you live. If you lose, you die. If you don’t fight, you can’t win.",
+    "quoteJap": "勝てば生きる。負ければ死ぬ。戦わなければ勝てない！",
+    "hintJap": "進撃の巨人",
+    "hintEng": "Attack on Titan"
+  },
+  {
+    "characterEng": "All Might",
+    "characterJap": "オールマイト",
+    "quoteEng": "It's fine now. Why? Because I am here!",
+    "quoteJap": "もう大丈夫だ。なぜなら、私が来たからだ！",
+    "hintJap": "僕のヒーローアカデミア",
+    "hintEng": "My Hero Academia"
+  },
+  {
+    "characterEng": "Saitama",
+    "characterJap": "サイタマ",
+    "quoteEng": "I'm just a guy who's a hero for fun.",
+    "quoteJap": "趣味でヒーローをやっている者だ。",
+    "hintJap": "ワンパンマン",
+    "hintEng": "One Punch Man"
+  },
+  {
+    "characterEng": "Gojo Satoru",
+    "characterJap": "五条 悟",
+    "quoteEng": "Throughout Heaven and Earth, I alone am the honored one.",
+    "quoteJap": "天上天下唯我独尊。",
+    "hintJap": "呪術廻戦",
+    "hintEng": "Jujutsu Kaisen"
+  },
+  {
+    "characterEng": "Lelouch Lamperouge",
+    "characterJap": "ルルーシュ・ランペルージ",
+    "quoteEng": "The only ones who should kill are those who are prepared to be killed.",
+    "quoteJap": "撃っていいのは、撃たれる覚悟がある奴だけだ。",
+    "hintJap": "コードギアス",
+    "hintEng": "Code Geass"
+  },
+  {
+    "characterEng": "Kyojuro Rengoku",
+    "characterJap": "煉獄 杏寿郎",
+    "quoteEng": "Set your heart ablaze!",
+    "quoteJap": "心を燃やせ！",
+    "hintJap": "鬼滅の刃",
+    "hintEng": "Demon Slayer"
+  },
+  {
+    "characterEng": "Roronoa Zoro",
+    "characterJap": "ロロノア・ゾロ",
+    "quoteEng": "I will never lose again!",
+    "quoteJap": "もう二度と負けねェから！",
+    "hintJap": "ワンピース",
+    "hintEng": "One Piece"
+  },
+  {
+    "characterEng": "L",
+    "characterJap": "エル",
+    "quoteEng": "Kira is childish and he hates losing.",
+    "quoteJap": "キラは子供で、負けず嫌いです。",
+    "hintJap": "デスノート",
+    "hintEng": "Death Note"
+  },
+  {
+    "characterEng": "Armin Arlert",
+    "characterJap": "アルミン・アルレルト",
+    "quoteEng": "If you can’t find a reason to fight, then don’t fight.",
+    "quoteJap": "戦う理由が見つからないなら、戦わなければいいんです。",
+    "hintJap": "進撃の巨人",
+    "hintEng": "Attack on Titan"
+  },
+  {
+    "characterEng": "Mikasa Ackerman",
+    "characterJap": "ミカサ・アッカーマン",
+    "quoteEng": "The world is cruel, isn’t it?",
+    "quoteJap": "世界は残酷なんだから。",
+    "hintJap": "進撃の巨人",
+    "hintEng": "Attack on Titan"
+  },
+  {
+    "characterEng": "Kakashi Hatake",
+    "characterJap": "カカシ・ハタケ",
+    "quoteEng": "Those who don’t treasure their friends are even worse than scum!",
+    "quoteJap": "仲間を大切にしないやつはそれ以上のクズだ！",
+    "hintJap": "ナルト",
+    "hintEng": "Naruto"
+  },
+  {
+    "characterEng": "Veldora Tempest",
+    "characterJap": "ヴェルドラ・テンペスト",
+    "quoteEng": "I got the ultimate power! All who oppose me shall die!",
+    "quoteJap": "究極の力を手に入れたぞ！逆らうものは皆殺しだぁ！！",
+    "hintJap": "転生したらスライムだった件",
+    "hintEng": "That Time I Got Reincarnated as a Slime"
+  },
+  {
+    "characterEng": "Milim Nava",
+    "characterJap": "ミリム・ナーヴァ",
+    "quoteEng": "More than friends… we’re besties!",
+    "quoteJap": "友達というより、マブダチだな！",
+    "hintJap": "転生したらスライムだった件",
+    "hintEng": "That Time I Got Reincarnated as a Slime"
+  },
+  {
+    "characterEng": "Subaru Natsuki",
+    "characterJap": "ナツキ・スバル",
+    "quoteEng": "I’ll save you, no matter how many times I have to die!",
+    "quoteJap": "何度死んだって君を助ける！",
+    "hintJap": "Re:ゼロから始める異世界生活",
+    "hintEng": "Re:Zero − Starting Life in Another World"
+  },
+  {
+    "characterEng": "Emilia",
+    "characterJap": "エミリア",
+    "quoteEng": "Were you waiting for me?",
+    "quoteJap": "待っててくれたの？",
+    "hintJap": "Re:ゼロから始める異世界生活",
+    "hintEng": "Re:Zero − Starting Life in Another World"
+  },
+  {
+    "characterEng": "Kirito",
+    "characterJap": "キリト",
+    "quoteEng": "Whether here or in the real world, you can cry when it hurts. There’s no rule that you can’t show feelings just because it’s a game.",
+    "quoteJap": "ここでも現実でも、痛いときは泣いてもいい。ゲームだからって感情を見せちゃいけないなんてルールはない。",
+    "hintJap": "ソードアート・オンライン",
+    "hintEng": "Sword Art Online"
+  },
+  {
+    "characterEng": "Asuna",
+    "characterJap": "アスナ",
+    "quoteEng": "If we make it back to the real world, I’ll find you. And fall in love with you all over again.",
+    "quoteJap": "現実に戻ったら、必ずあなたを見つけて、もう一度恋に落ちる。",
+    "hintJap": "ソードアート・オンライン",
+    "hintEng": "Sword Art Online"
+  },
+  {
+    "characterEng": "Rei Ayanami",
+    "characterJap": "綾波 レイ",
+    "quoteEng": "I am not a doll.",
+    "quoteJap": "私は人形じゃない",
+    "hintJap": "新世紀エヴァンゲリオン",
+    "hintEng": "Neon Genesis Evangelion"
+  },
+  {
+    "characterEng": "Shinji Ikari",
+    "characterJap": "碇 シンジ",
+    "quoteEng": "Nobody wants me, so they can all just die.",
+    "quoteJap": "誰も僕を必要としないなら、みんな死んでしまえ。",
+    "hintJap": "新世紀エヴァンゲリオン",
+    "hintEng": "Neon Genesis Evangelion"
+  },
+  {
+    "characterEng": "Rudeus Greyrat",
+    "characterJap": "ルーデウス・グレイラット",
+    "quoteEng": "There are things more valuable than money. Money can't buy dere!",
+    "quoteJap": "お金より大切なものがある。お金じゃデレは買えない！",
+    "hintJap": "無職転生 ～異世界行ったら本気だす～",
+    "hintEng": "Mushoku Tensei: Jobless Reincarnation"
+  },
+  {
+    "characterEng": "Izuku Midoriya",
+    "characterJap": "緑谷 出久",
+    "quoteEng": "Sometimes I do feel like I'm a failure. Like there's no hope for me. But even so, I'm not gonna give up.",
+    "quoteJap": "時々、失敗ばかりで希望がないように感じることもある。でも、それでも諦めない。",
+    "hintJap": "僕のヒーローアカデミア",
+    "hintEng": "My Hero Academia"
+  },
+  {
+    "characterEng": "Katsuki Bakugo",
+    "characterJap": "爆豪 勝己",
+    "quoteEng": "From now on, call me ‘Great Explosion Murder God Dynamight’!",
+    "quoteJap": "これからは『爆轟殺神ダイナマイト』だ！",
+    "hintJap": "僕のヒーローアカデミア",
+    "hintEng": "My Hero Academia"
+  },
+  {
+    "characterEng": "Megumin",
+    "characterJap": "めぐみん",
+    "quoteEng": "Explosion!",
+    "quoteJap": "爆裂魔法！",
+    "hintEng": "KonoSuba: God's Blessing on This Wonderful World!",
+    "hintJap": "この素晴らしい世界に祝福を！"
   }
 ]

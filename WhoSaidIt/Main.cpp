@@ -24,6 +24,7 @@ std::string TextHint2;
 std::string TextThankYou;
 std::string TextInputAnswer;
 std::string TextSaid;
+std::string TextEasterEgg;
 
 void LoadTexts() {
 	TextCorrect = IsEnglish ? "Correct!" : "正解！";
@@ -38,6 +39,7 @@ void LoadTexts() {
 	TextThankYou = IsEnglish ? "Thank you for playing!" : "プレイしてくれてありがとう！";
 	TextInputAnswer = IsEnglish ? "Your answer: " : "あなたの答え：";
 	TextSaid = IsEnglish ? " said: " : "が言ったのは：";
+	TextEasterEgg = IsEnglish ? "All's good in the goblin hood!" : "ゴブリンの里は今日も平和だ！";
 }
 
 
@@ -55,15 +57,17 @@ int main() {
 
 
 	std::cout << "Choose a language (1 for English, 2 for 日本語): " << std::endl << "言語を選択してください (英語の場合は 1、日本語の場合は 2):";
-	int choice;
+	std::string choice;
 	std::cin >> choice;
-	if (choice == 1) {
+	if (choice == "1") {
 		IsEnglish = true;
 		std::cout << "You chose English.\n";
-	} else if (choice == 2) {
+	}
+	else if (choice == "2") {
 		IsEnglish = false;
 		std::cout << "あなたは日本語を選択しました";
-	} else {
+	} 
+	else {
 		std::cout << "Invalid choice. Defaulting to English.\n";
 		IsEnglish = true;
 	}
@@ -117,8 +121,11 @@ void GameLoop(json Quotes) {
 				std::cout << TextHint2 << " " << Hint << std::endl;
 				continue; // Ask for the answer again
 			}
-			else if (ToLower(Answer) == ToLower(Character) || ToLower(Answer) == ToLower(OtherCharacter))
+			else if (ToLower(Answer) == ToLower(Character) || ToLower(Answer) == ToLower(OtherCharacter)) {
+				if (ToLower(Hint) == "that time i got reincarnated as a slime" || Hint == "転生したらスライムだった件")
+					std::cout << TextEasterEgg << std::endl; // Easter egg for Tensura
 				std::cout << TextCorrect << " " << Character << " " << TextSaid << " " << Quote << "\n";
+			}
 			else
 				std::cout << TextIncorrect << " " << Character << "\n";
 
