@@ -44,6 +44,7 @@ void LoadTexts() {
 
 
 static inline std::string ToLower(const std::string& str);
+static inline bool IsJapanese(const std::string& str);
 void GameLoop(json Quotes);
 
 int main() {
@@ -177,7 +178,7 @@ void GameLoop(json Quotes) {
 static inline std::string ToLower(const std::string& str) {
 
 	std::string lowerStr = str;
-	if (!IsJapanese) { // Convert to lowercase only if the language is English
+	if (!IsJapanese(str)) { // Convert to lowercase only if the language is English
 		for (auto& c : lowerStr) {
 			c = static_cast<char>(std::tolower(c));
 		}
