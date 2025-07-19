@@ -72,9 +72,9 @@ int main() {
 		IsEnglish = true;
 	}
 
+	LoadTexts(); // Load the localized texts based on the chosen language
 	srand((unsigned)time(0)); // Seed the random number generator
 	std::cout << TextWelcome << std::endl;
-	LoadTexts(); // Load the localized texts based on the chosen language
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Clear the input buffer to avoid issues with getline after cin
 	GameLoop(Quotes);
 	std::cout << TextThankYou << std::endl;
