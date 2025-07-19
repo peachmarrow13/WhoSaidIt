@@ -89,6 +89,8 @@ void GameLoop(json Quotes) {
 		std::string OtherQuote;
 		std::string OtherCharacter;
 		std::string OtherHint;
+		std::vector<std::string> Aliases;
+		std::vector<std::string> OtherAliases;
 		if (IsEnglish) {
 			Quote = Quotes[RandomIndex]["quoteEng"];
 			Hint = Quotes[RandomIndex]["hintEng"];
@@ -96,8 +98,20 @@ void GameLoop(json Quotes) {
 			OtherQuote = Quotes[RandomIndex]["quoteJap"];
 			OtherHint = Quotes[RandomIndex]["hintJap"];
 			OtherCharacter = Quotes[RandomIndex]["characterJap"];
-		}
+			Aliases = Quotes[RandomIndex]["aliasesEng"].get<std::vector<std::string>>();
+			OtherAliases = Quotes[RandomIndex]["aliasesJap"].get<std::vector<std::string>>();
 
+		}
+		else {
+			Quote = Quotes[RandomIndex]["quoteJap"];
+			Hint = Quotes[RandomIndex]["hintJap"];
+			Character = Quotes[RandomIndex]["characterJap"];
+			OtherQuote = Quotes[RandomIndex]["quoteEng"];
+			OtherHint = Quotes[RandomIndex]["hintEng"];
+			OtherCharacter = Quotes[RandomIndex]["characterEng"];
+			Aliases = Quotes[RandomIndex]["aliasesJap"].get<std::vector<std::string>>();
+			OtherAliases = Quotes[RandomIndex]["aliasesEng"].get<std::vector<std::string>>();
+		}
 
 
 		std::cout << TextCharacters << std::endl;
@@ -126,8 +140,24 @@ void GameLoop(json Quotes) {
 					std::cout << TextEasterEgg << std::endl; // Easter egg for Tensura
 				std::cout << TextCorrect << " " << Character << " " << TextSaid << " " << Quote << "\n";
 			}
-			else
-				std::cout << TextIncorrect << " " << Character << "\n";
+			else{
+				for (const auto& alias : Aliases) {
+					if (ToLower(Answer) == ToLower(alias)) {
+						std::cout << TextCorrect << " " << Character << " " << TextSaid << " " << Quote << "\n";
+						break;
+					}
+					else {
+						for (const auto& otherAlias : OtherAliases) {
+							if (ToLower(Answer) == ToLower(otherAlias)) {
+								std::cout << TextCorrect << " " << Character << " " << TextSaid << " " << Quote << "\n";
+								break;
+							}
+							else
+								std::cout << TextIncorrect << Character << " " << TextSaid << " " << Quote << "\n";
+						}
+					}
+				}
+			}
 
 			std::cout << TextThankYou << std::endl << TextPlayAgain << std::endl;
 			std::string PlayAgain;
@@ -147,11 +177,23 @@ void GameLoop(json Quotes) {
 static inline std::string ToLower(const std::string& str) {
 
 	std::string lowerStr = str;
-	if (IsEnglish) { // Convert to lowercase only if the language is English
+	if (!IsJapanese) { // Convert to lowercase only if the language is English
 		for (auto& c : lowerStr) {
 			c = static_cast<char>(std::tolower(c));
 		}
 		return lowerStr;
 	}
 	return lowerStr; // No conversion for Japanese characters
+}
+
+static inline bool IsJapanese(const std::string& str) {
+	// Check if the string contains any Japanese characters
+	for (const auto& c : str) {
+		if ((c >= 0x3040 && c <= 0x309F) || // Hiragana
+			(c >= 0x30A0 && c <= 0x30FF) || // Katakana
+			(c >= 0x4E00 && c <= 0x9FAF)) { // Kanji
+			return true;
+		}
+	}
+	return false;
 }
