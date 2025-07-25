@@ -155,6 +155,7 @@ void GameLoop(json Quotes) {
 							}
 							else
 								std::cout << TextIncorrect << Character << " " << TextSaid << " " << Quote << "\n";
+							break; // Exit the loop if a match is found
 						}
 					}
 				}
